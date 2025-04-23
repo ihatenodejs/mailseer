@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Key, Mail } from "lucide-react"
+import { Mail } from "lucide-react"
 
 interface StageOneProps {
   setStage: (stage: number) => void
@@ -25,7 +25,7 @@ export default function Home({ setStage }: StageOneProps) {
           Welcome to Mailseer! This is the first step of the setup process.
         </p>
         <p className="text-sm text-muted-foreground mt-4 mb-8">
-          We'll guide you through the installation process from here.
+          We&apos;ll guide you through the installation process from here.
         </p>
         <Button className="w-full cursor-pointer" onClick={() => setStage(2)}>
           Continue

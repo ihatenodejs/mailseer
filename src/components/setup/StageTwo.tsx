@@ -24,7 +24,7 @@ export default function Home({ setStage }: StageTwoProps) {
       <CardContent>
         <h1 className="text-2xl font-bold mb-3">Step Two</h1>
         <p className="text-sm text-muted-foreground">
-          Let's setup the first admin account.
+          Let&apos;s setup the first admin account.
         </p>
 
         <div className="flex flex-col gap-2 mt-6">
